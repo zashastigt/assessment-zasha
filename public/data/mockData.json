@@ -1,0 +1,12 @@
+{
+    "shortDuration": {
+        "payInterval": "eenmalig",
+        "ppOver18": 2.00,
+        "ppUnder18": 1.50
+    },
+    "continuousDuration": {
+        "payInterval": "maandelijks",
+        "ppOver18": 5.00,
+        "ppUnder18": 4.00
+    }
+}

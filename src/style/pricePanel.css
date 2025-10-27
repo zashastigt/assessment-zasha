@@ -1,0 +1,39 @@
+.priceContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 5px;
+}
+
+.priceContainer .prices {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 10px;
+    background-color: var(--primary-panel-color);
+}
+
+.totalPrice {
+    font-size: 1.3em;
+}
+
+.priceConclusion {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px 0;
+    color: var(--text-color-light);
+    background-color: var(--primary-purple);
+}
+
+@media (max-width: 1000px) {
+    .priceContainer {
+        width: auto;
+    }
+}
